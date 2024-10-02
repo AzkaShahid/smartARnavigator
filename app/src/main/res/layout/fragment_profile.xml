@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/llMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/tool_bar_layout"/>
+    <CheckBox
+        android:id="@+id/checkboxPlaySound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_10"
+        android:checked="true"
+        android:visibility="gone"
+        android:text="PlaySound"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:layout_marginTop="@dimen/margin_20"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="@dimen/margin_20">
+
+        <ImageView
+            android:layout_width="@dimen/margin_38"
+            android:layout_height="@dimen/margin_38"
+            android:background="@drawable/ic_rectangle_white"
+            android:backgroundTint="@color/dark_beige"
+            android:padding="@dimen/margin_5"
+            android:src="@drawable/ic_sound_icon"
+            app:tint="@color/bottom_bar" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/margin_5"
+            android:layout_weight="1"
+            android:textSize="@dimen/font_20"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="start"
+            android:text="Sound" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <Switch
+                android:id="@+id/switchPlaySound"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:checked="true"
+                android:gravity="end"
+                android:thumb="@drawable/ic_thumb"
+                android:track="@drawable/ic_track"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+
+            <TextView
+                android:id="@+id/tv_on_off"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:text="Off"
+                android:textColor="@color/black"
+                android:textAllCaps="true">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

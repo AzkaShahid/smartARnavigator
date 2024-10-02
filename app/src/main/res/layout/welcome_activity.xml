@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg"
+    >
+
+
+    <TextView
+        android:id="@+id/tvHeading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to AR Navigator"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:gravity="start"
+        android:textSize="@dimen/font_24"
+        android:layout_marginHorizontal="@dimen/margin_20"
+        app:layout_constraintBottom_toTopOf="@+id/tvContent"
+        android:layout_marginBottom="@dimen/margin_20"
+        android:fontFamily="@font/poppins_medium"/>
+
+
+    <TextView
+        android:id="@+id/tvContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_20"
+        android:text="This application is at the intersection of federated learning, mobile computing, and augmented reality, with the goal of creating a system that enhances AR location assistance on smartphones while respecting user privacy."
+        android:textSize="@dimen/font_14"
+        android:layout_marginHorizontal="@dimen/margin_20"
+        android:textColor="@color/white"
+        android:layout_marginBottom="@dimen/margin_100"
+        app:layout_constraintBottom_toTopOf="@+id/findLocation"
+        android:textAlignment="textStart"
+        android:fontFamily="@font/poppins_medium"
+        />
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/findLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/button_brown"
+            app:cardCornerRadius="@dimen/margin_10"
+            android:layout_gravity="bottom"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="@dimen/margin_100"
+            android:layout_marginHorizontal="@dimen/margin_20"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Get Started"
+                android:textColor="@color/color_blue"
+                android:paddingHorizontal="@dimen/margin_10"
+                android:paddingVertical="@dimen/margin_8"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/font_16"
+                android:fontFamily="@font/poppins_medium"
+                android:textAlignment="center"/>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+

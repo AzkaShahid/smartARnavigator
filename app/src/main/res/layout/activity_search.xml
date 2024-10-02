@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/llMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/tool_bar_layout" />
+
+
+    <!--        <androidx.appcompat.widget.Toolbar-->
+    <!--            android:id="@+id/toolbar"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="?attr/actionBarSize"-->
+    <!--            android:background="@color/white"-->
+    <!--            app:title="@string/app_name"-->
+    <!--            app:titleTextColor="@android:color/black">-->
+
+    <!--        </androidx.appcompat.widget.Toolbar>-->
+    <androidx.core.widget.NestedScrollView
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_10">
+
+            <!--            <androidx.cardview.widget.CardView-->
+            <!--                android:id="@+id/cvSearch"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:elevation="0dp"-->
+            <!--                app:cardBackgroundColor="@color/color_green_light"-->
+            <!--                app:cardCornerRadius="10dp"-->
+            <!--                app:cardElevation="0dp">-->
+
+            <!--                <TextView-->
+            <!--                    android:id="@+id/indoorSearch"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="match_parent"-->
+            <!--                    android:background="@null"-->
+            <!--                    android:drawableStart="@drawable/ic_indoor"-->
+            <!--                    android:drawablePadding="10dp"-->
+            <!--                    android:drawableTint="@color/black"-->
+            <!--                    android:maxLines="1"-->
+            <!--                    android:padding="@dimen/margin_10"-->
+            <!--                    android:singleLine="true"-->
+            <!--                    android:text="Indoor"-->
+            <!--                    android:textColor="@color/black"-->
+            <!--                    android:textColorHint="@color/colorBottomUnSelected"-->
+            <!--                    android:textSize="@dimen/font_18"-->
+
+            <!--                    />-->
+
+            <!--                <ImageView-->
+            <!--                    android:id="@+id/expandBtn"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_gravity="end"-->
+            <!--                    android:layout_marginTop="@dimen/margin_10"-->
+            <!--                    android:layout_marginEnd="@dimen/margin_10"-->
+            <!--                    android:src="@drawable/ic_expand">-->
+
+            <!--                </ImageView>-->
+
+            <!--                <ImageView-->
+            <!--                    android:id="@+id/expandMoreBtn"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_gravity="end"-->
+            <!--                    android:layout_marginTop="@dimen/margin_10"-->
+            <!--                    android:layout_marginEnd="@dimen/margin_10"-->
+            <!--                    android:src="@drawable/ic_expand_more"-->
+            <!--                    android:visibility="gone"-->
+
+            <!--                    >-->
+
+            <!--                </ImageView>-->
+
+            <!--            </androidx.cardview.widget.CardView>-->
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvLst"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:listitem="@layout/adapter_all_location">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+            <!--            <androidx.cardview.widget.CardView-->
+            <!--                android:id="@+id/otSearch"-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:layout_marginTop="@dimen/margin_10"-->
+            <!--                android:elevation="0dp"-->
+            <!--                app:cardBackgroundColor="@color/color_green_light"-->
+            <!--                app:cardCornerRadius="10dp"-->
+            <!--                app:cardElevation="0dp">-->
+
+            <!--                <TextView-->
+            <!--                    android:id="@+id/outdoorSearch"-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="match_parent"-->
+            <!--                    android:background="@null"-->
+            <!--                    android:drawableStart="@drawable/ic_outdoor"-->
+            <!--                    android:drawablePadding="10dp"-->
+            <!--                    android:drawableTint="@color/black"-->
+            <!--                    android:maxLines="1"-->
+            <!--                    android:padding="@dimen/margin_10"-->
+            <!--                    android:singleLine="true"-->
+            <!--                    android:text="Outdoor"-->
+            <!--                    android:textColor="@color/black"-->
+            <!--                    android:textColorHint="@color/colorBottomUnSelected"-->
+            <!--                    android:textSize="@dimen/font_18"-->
+
+            <!--                    />-->
+
+            <!--                <ImageView-->
+            <!--                    android:id="@+id/expandBtn1"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_gravity="end"-->
+            <!--                    android:layout_marginTop="@dimen/margin_10"-->
+            <!--                    android:layout_marginEnd="@dimen/margin_10"-->
+            <!--                    android:src="@drawable/ic_expand">-->
+
+            <!--                </ImageView>-->
+
+            <!--                <ImageView-->
+            <!--                    android:id="@+id/expandMoreBtn1"-->
+            <!--                    android:layout_width="wrap_content"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_gravity="end"-->
+            <!--                    android:layout_marginTop="@dimen/margin_10"-->
+            <!--                    android:layout_marginEnd="@dimen/margin_10"-->
+            <!--                    android:src="@drawable/ic_expand_more"-->
+            <!--                    android:visibility="gone"-->
+
+            <!--                    ></ImageView>-->
+
+
+            <!--            </androidx.cardview.widget.CardView>-->
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/outdoorList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager">
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>
+
+

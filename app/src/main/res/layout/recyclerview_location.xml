@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:layout_toStartOf="@id/layout_options"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/nameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:text="Location"
+                 />
+            <TextView
+                android:id="@+id/categoryTextView"
+                android:layout_below="@id/nameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="@dimen/font_16"
+                android:textColor="@color/black"
+                android:text="Location"
+                />
+            <TextView
+                android:id="@+id/latitudeTextView"
+                android:layout_below="@id/categoryTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_12"
+                android:text="Location"
+                />
+            <TextView
+                android:id="@+id/longitudeTextView"
+                android:layout_below="@id/latitudeTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_regular"
+                android:textColor="@color/black"
+                android:textSize="@dimen/font_12"
+                android:text="Location"
+                />
+
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_options"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal">
+
+<!--            <ImageButton-->
+<!--                android:id="@+id/button_edit"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginEnd="12dp"-->
+<!--                android:background="@drawable/ic_edit" />-->
+
+            <ImageButton
+                android:id="@+id/button_delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="20dp"
+                android:background="@drawable/ic_delete" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e9e9e9" />
+
+</LinearLayout>

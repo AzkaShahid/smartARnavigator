@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Buttons Background Color-->
+    <color name="colorPrimary">#006683</color>
+    <!--Text Color-->
+    <color name="colorOnPrimary">#FF000000</color>
+    <color name="colorPrimaryVariant">#FF000000</color>
+    <!--Input Views Active State Color-->
+    <color name="colorSecondary">#474747</color>
+    <color name="button_brown">#EFEAD7</color>
+    <color name="green">#BDD685</color>
+    <color name="gray">#4B4B43</color>
+    <color name="gray_1">#CFCAB8</color>
+    <color name="beige">#FFFBEC</color>
+    <color name="dark_beige">#EFEAD7</color>
+    <color name="color_blue">#31312F</color>
+    <color name="bottom_bar">#31312F</color>
+    <color name="unSelected_item">#8A8677</color>
+    <color name="color_blue_dark">#050B63</color>
+    <color name="color_purple">#C3C7F2</color>
+
+    <color name="colorSecondaryVariant">#474747</color>
+    <color name="colorOnSecondary">#FFFFFFFF</color>
+    <color name="colorError">#C62828</color>
+    <color name="colorBackground">#FAFAFA</color>
+
+    <color name="statusBarColor">#FFFFFFFF</color>
+    <color name="colorToolbarContent">#FF000000</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimaryAlpha">#C3C7F2</color>
+
+    <color name="colorTextTitle">#474747</color>
+    <color name="colorTextSubTitle">#474747</color>
+
+
+    <color name="color_inner">#006683</color>
+    <color name="color_outer">#80006683</color>
+    <color name="colorTransparent">#00FFFFFF</color>
+    <color name="color_industrial_text">#D99D11</color>
+    <color name="colorDarkText">#323232</color>
+    <color name="colorLightText">#5F6369</color>
+    <color name="colorBottomUnSelected">#C0C0C0</color>
+    <color name="color_search_alpha">#80000000</color>
+    <color name="colorBlackAlpha">#80000000</color>
+    <color name="color_green">#26A8AB</color>
+    <color name="color_green_light">#D7F4F4</color>
+    <color name="colo_gray_light">#F6F6F6</color>
+
+
+</resources>

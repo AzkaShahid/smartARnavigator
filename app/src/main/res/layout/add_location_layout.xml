@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    >
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorTransparent"
+        app:title="@string/app_name"
+        app:titleTextColor="@android:color/black"
+        >
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_16">
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/location_str"
+            android:inputType="text"
+            android:layout_marginTop="@dimen/margin_60"/>
+
+
+        <EditText
+            android:id="@+id/editCategory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editName"
+            android:layout_marginTop="16dp"
+            android:hint="@string/category"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editLat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editCategory"
+            android:layout_marginTop="16dp"
+            android:hint="@string/lat_str"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/editLong"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editLat"
+            android:layout_marginTop="16dp"
+            android:hint="@string/long_str"
+            android:inputType="numberDecimal" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/getLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_5"
+            android:backgroundTint="@color/green"
+            app:contentPadding="@dimen/margin_10"
+            android:layout_below="@id/editLong"
+            app:cardCornerRadius="@dimen/margin_5"
+            android:layout_marginTop="@dimen/margin_16"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_location"
+                android:layout_gravity="center_vertical"
+
+                >
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/get_location"
+                android:textSize="@dimen/font_16"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/black"
+                android:layout_gravity="end"
+                android:layout_marginStart="@dimen/margin_25"
+                />
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/bottom_bar"
+            app:cardCornerRadius="@dimen/margin_10"
+            android:layout_gravity="center_vertical"
+            android:layout_alignParentBottom="true"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save"
+                android:textColor="@color/white"
+                android:paddingHorizontal="@dimen/margin_10"
+                android:paddingVertical="@dimen/margin_8"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/font_16"
+                android:fontFamily="@font/poppins_medium"
+                android:textAlignment="center"/>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+    </RelativeLayout>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/black"
+        android:indeterminateTintMode="src_in"
+        android:visibility="invisible" />
+
+
+
+
+</RelativeLayout>
