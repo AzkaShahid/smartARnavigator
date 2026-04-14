@@ -87,9 +87,20 @@ The system supports both outdoor and indoor navigation scenarios and allows user
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="ss/home.png" width="180"/>
-  <img src="ss/navigation.png" width="180"/>
-  <img src="ss/ar_view.png" width="180"/>
+  <img src="ar_1.jpeg" width="180"/>
+  <img src="ar_2.png" width="180"/>
+  <img src="ar_3.png" width="180"/>
+   <img src="ar_4.png" width="180"/>
+   <img src="ar_5.png" width="180"/>
+   <img src="ar_6.png" width="180"/>
+   <img src="ar_7.png" width="180"/>
+   <img src="ar_8.png" width="180"/>
+   <img src="ar_9.png" width="180"/>
+   <img src="ar_10.png" width="180"/>
+   <img src="ar_11.png" width="180"/>
+   <img src="ar_12.png" width="180"/>
+   <img src="ar_13.png" width="180"/>
+   <img src="ar_14.png" width="180"/>
 </p>
 
 ---
