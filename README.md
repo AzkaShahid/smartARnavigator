@@ -1,10 +1,10 @@
-# 🧭 AR Vision Navigator
+#  AR Vision Navigator
 
 An advanced Augmented Reality (AR) navigation system that provides real-time, intelligent route guidance by overlaying directions directly onto the real-world camera view.
 
 ---
 
-## 📱 Overview
+##  Overview
 
 AR Vision Navigator is an innovative Android application that transforms traditional navigation into an immersive experience. By combining Augmented Reality, GPS, and intelligent route analysis, the app overlays navigation paths, directional arrows, and location markers onto the live camera feed.
 
@@ -12,58 +12,58 @@ The system supports both outdoor and indoor navigation scenarios and allows user
 
 ---
 
-## 🚀 Features
+##  Features
 
-### 🧭 AR-Based Navigation
+###  AR-Based Navigation
 - Real-time AR direction overlay on camera view  
 - Visual arrows guiding user along the path  
 - Live route alignment with real-world environment  
 
 ---
 
-### 📍 Custom Location Management
+###  Custom Location Management
 - Add and save custom locations (Home, Office, University, etc.)  
 - Navigate between user-defined points  
 - Personalized navigation experience  
 
 ---
 
-### 🌍 Distance & Region Awareness
+###  Distance & Region Awareness
 - Displays distance between source and destination  
 - Supports navigation across different locations and regions  
 - Optimized for real-world outdoor navigation  
 
 ---
 
-### 🏢 Indoor & Outdoor Navigation
+###  Indoor & Outdoor Navigation
 - Outdoor navigation using GPS  
 - Extendable indoor navigation system (for campuses, buildings)  
 - Hybrid navigation capability  
 
 ---
 
-### 🔊 Smart Audio Guidance
+###  Smart Audio Guidance
 - Voice-based navigation assistance  
 - Real-time audio directions  
 - Enhances accessibility and user experience  
 
 ---
 
-### 🤖 Intelligent Navigation System
+###  Intelligent Navigation System
 - Smart route handling and decision-making  
 - Context-aware navigation suggestions  
 - Can be extended with AI-based route optimization  
 
 ---
 
-### 🎨 User Experience
+###  User Experience
 - Clean and interactive UI  
 - Smooth AR rendering  
 - Real-time updates  
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - Kotlin / Java  
 - ARCore (Augmented Reality)  
@@ -74,7 +74,7 @@ The system supports both outdoor and indoor navigation scenarios and allows user
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 1. User selects or defines a destination  
 2. App calculates route using Maps API  
@@ -84,7 +84,7 @@ The system supports both outdoor and indoor navigation scenarios and allows user
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 <p align="center">
   <img src="ar_1.jpeg" width="180"/>
@@ -105,7 +105,7 @@ The system supports both outdoor and indoor navigation scenarios and allows user
 
 ---
 
-## 🤖 AI & Innovation Aspect
+##  AI & Innovation Aspect
 
 This project demonstrates how intelligent systems can enhance navigation by combining:
 
@@ -120,13 +120,13 @@ The system can be extended to include:
 
 ---
 
-## 🎯 Purpose
+##  Purpose
 
 The goal of this project is to bridge the gap between digital maps and real-world navigation by providing a more intuitive, interactive, and intelligent navigation experience.
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 1. Clone the repository  
 2. Open in Android Studio  
@@ -135,7 +135,7 @@ The goal of this project is to bridge the gap between digital maps and real-worl
 
 ---
 
-## 📌 Future Improvements
+##  Future Improvements
 
 - Full AI-based navigation system  
 - Indoor mapping with AR anchors  
@@ -146,7 +146,7 @@ The goal of this project is to bridge the gap between digital maps and real-worl
 
 ---
 
-## 👨‍💻 Developer
+##  Developer
 
 Azka Shahid  
 Android Developer  
