@@ -92,13 +92,13 @@ The system supports both outdoor and indoor navigation scenarios and allows user
   <img src="ar_3.png" width="180"/>
    <img src="ar_4.png" width="180"/>
    <img src="ar_5.png" width="180"/>
+  <img src="ar_11.png" width="180"/>
+   <img src="ar_12.png" width="180"/>
    <img src="ar_6.png" width="180"/>
    <img src="ar_7.png" width="180"/>
    <img src="ar_8.png" width="180"/>
    <img src="ar_9.png" width="180"/>
    <img src="ar_10.png" width="180"/>
-   <img src="ar_11.png" width="180"/>
-   <img src="ar_12.png" width="180"/>
    <img src="ar_13.png" width="180"/>
    <img src="ar_14.png" width="180"/>
 </p>
